@@ -22,3 +22,16 @@ Scalable and flexible
 
 ### What are API - Get, PuT, Post & Delete calls?
 - GET, POST, PUT, PATCH, and DELETE are the five most common HTTP methods for retrieving from and sending data to a server. 
+
+```python
+# APIs with pyhton
+# install requests
+# pip install requests
+
+import requests
+# Get
+requests_bbc_status_code = requests.get("https://www.bbc.co.uk/iplayer/live/bbcnews")
+
+# check the outcome of our API call
+print(requests_bbc_status_code.status_code)
+```
