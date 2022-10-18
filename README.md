@@ -35,3 +35,15 @@ requests_bbc_status_code = requests.get("https://www.bbc.co.uk/iplayer/live/bbcn
 # check the outcome of our API call
 print(requests_bbc_status_code.status_code)
 ```
+### Task
+```python
+import requests
+
+class Api:
+
+    def __init__(self, postcode):
+        self.url = "http://api.postcodes.io/postcodes/"
+        self.postcode = postcode
+
+- Not completed yet / complete tomorrow
+```
